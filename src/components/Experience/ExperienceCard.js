@@ -12,8 +12,8 @@ function ExperienceCard({ title, subtitle, period, location, description }) {
         borderRadius: "15px",
         border: "none",
         boxShadow: hover
-          ? "0 4px 4px 5px rgba(129, 72, 144, 0.561)" // Elevated shadow on hover
-          : "0 4px 5px 3px rgba(119, 53, 136, 0.459)", // Normal shadow
+          ? "0 4px 4px 5px rgba(48, 112, 219, 0.561)" // Strong blue shadow on hover
+          : "0 4px 5px 3px rgba(48, 112, 219, 0.459)", 
         height: "100%",
         display: "flex",
         flexDirection: "column",

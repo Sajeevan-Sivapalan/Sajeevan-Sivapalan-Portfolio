@@ -10,6 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [boxWidth, setBoxWidth] = useState(800);
+  const [pdfHeight, setPdfHeight] = useState(0);
 
   useEffect(() => {
     const handleResize = () => {
@@ -21,8 +22,13 @@ function ResumeNew() {
     };
     handleResize();
     window.addEventListener("resize", handleResize);
+
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  const handleLoadSuccess = ({ numPages, width, height }) => {
+    setPdfHeight(height); // Capture the height of the PDF content when it loads
+  };
 
   return (
     <div
@@ -34,30 +40,19 @@ function ResumeNew() {
         overflow: "hidden",
       }}
     >
-      {/* Decorative Background Shapes */}
+      {/* Background shape adjusted to the PDF container */}
       <div
+        id="pdf-background"
         style={{
           position: "absolute",
-          top: "-100px",
-          left: "-150px",
-          width: "300px",
-          height: "300px",
+          top: "50%",
+          left: "50%",
+          width: `${boxWidth + 40}px`, // Slight padding around the PDF
+          height: `${pdfHeight + 40}px`, // Adjust background height based on the PDF height
+          transform: "translate(-50%, -50%)",
           background: "rgba(255, 255, 255, 0.1)",
-          borderRadius: "50%",
-          filter: "blur(80px)",
-          zIndex: 0,
-        }}
-      ></div>
-      <div
-        style={{
-          position: "absolute",
-          bottom: "-150px",
-          right: "-200px",
-          width: "400px",
-          height: "400px",
-          background: "rgba(255, 255, 255, 0.1)",
-          borderRadius: "50%",
-          filter: "blur(120px)",
+          borderRadius: "15px",
+          filter: "blur(60px)",
           zIndex: 0,
         }}
       ></div>
@@ -123,14 +118,13 @@ function ResumeNew() {
               borderRadius: "15px",
               background: "#ffffff",
               boxShadow: "0px 6px 20px rgba(0, 0, 0, 0.5)",
-              padding: "20px",
               maxWidth: "800px", // Fixed maximum width
               width: "90%", // Responsive width for smaller screens
               zIndex: 1,
               position: "relative",
             }}
           >
-            <Document file={pdf}>
+            <Document file={pdf} onLoadSuccess={handleLoadSuccess}>
               <Page
                 pageNumber={1}
                 scale={boxWidth / 800} // Dynamically scale PDF based on box width

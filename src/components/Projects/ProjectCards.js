@@ -64,16 +64,19 @@ function ProjectCards({ title, description, skills, githubLink }) {
           <strong>Skills:</strong> {skills.join(" · ")}
         </Card.Text>
         <Button
-          href={githubLink}
+          href={githubLink || "#"} // Fallback to a "#" link if githubLink is missing
           target="_blank"
+          rel="noopener noreferrer" // Added for security when opening in a new tab
           style={{
             backgroundColor: "#6495ED",
             borderColor: "#6495ED",
             fontSize: "0.9rem",
           }}
+          disabled={!githubLink} // Disable button if githubLink is not provided
         >
           <BsGithub /> &nbsp; GitHub
         </Button>
+
       </Card.Body>
     </Card>
   );
