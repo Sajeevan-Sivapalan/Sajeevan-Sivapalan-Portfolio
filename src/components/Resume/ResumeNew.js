@@ -113,9 +113,9 @@ function ResumeNew() {
             </Button>
           </Col>
         </Row>
-        <Row className="justify-content-center">
+        {/* <Row className="justify-content-center">
           {/* PDF Viewer */}
-          <Col
+           {/*<Col
             xs={12}
             id="pdf-container"
             style={{
@@ -140,7 +140,7 @@ function ResumeNew() {
               />
             </Document>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </div>
   );

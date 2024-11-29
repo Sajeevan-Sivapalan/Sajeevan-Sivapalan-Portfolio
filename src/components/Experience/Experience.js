@@ -37,7 +37,7 @@ function Experience() {
       style={{
         background: "#1a1a2e",
         color: "#ffffff",
-        padding: "80px 0 50px",
+        padding: "160px 0 50px",
       }}
     >
       <Container>
