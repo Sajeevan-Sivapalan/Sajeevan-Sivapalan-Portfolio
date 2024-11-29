@@ -12,8 +12,8 @@ function AboutCard() {
         borderRadius: "20px",
         padding: "20px",
         boxShadow: hover
-          ? "0 4px 4px 5px rgba(129, 72, 144, 0.561)" // Elevated shadow on hover
-          : "0 4px 5px 3px rgba(119, 53, 136, 0.459)", // Normal shadow
+          ? "0 4px 4px 5px rgba(48, 112, 219, 0.561)" // Elevated shadow on hover
+          : "0 4px 5px 3px rgba(48, 112, 219, 0.459)", // Normal shadow
         color: "#ffffff",
         transition: "transform 0.3s, box-shadow 0.3s", // Smooth transitions
         transform: hover ? "scale(1.05)" : "scale(1)", // Slight zoom effect on hover

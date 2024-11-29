@@ -194,11 +194,10 @@ function Projects() {
               style={{ marginBottom: "20px" }}
             >
               <ProjectCard
-                imgPath={project.imgPath}
                 title={project.title}
                 description={project.description}
                 skills={project.skills}
-                ghLink={project.ghLink}
+                githubLink={project.githubLink}
               />
             </Col>
           ))}
