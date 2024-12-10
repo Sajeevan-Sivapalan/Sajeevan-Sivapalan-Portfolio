@@ -120,6 +120,13 @@ function Projects() {
         "https://github.com/Sajeevan-Sivapalan/React-Frontend-Application-Using-NASA-APIs",
     },
     {
+      title: "Real-Time Event Ticketing System",
+      associated: "Independent Project",
+      description: "Developed a Real-Time Event Ticketing System with advanced producer-consumer implementation. This project focused on mastering object-oriented programming, multi-threading, and synchronization. It incorporated a dynamic ticketing environment to simulate concurrent ticket releases and purchases, showcasing expertise in system design and high-performance applications.",
+      skills: ["React", "Angular", "Spring Boot", "Object-Oriented Programming (OOP)", "WebSocket", "Multi-threading", "Producer-Consumer Pattern"],
+      githubLink: "https://github.com/Sajeevan-Sivapalan/Real-Time-Ticketing-System"
+    }, 
+    {
       title: "Skin-Consultation-Center",
       description:
         "This is an application for a skin consultation center. This application has console and GUI interfaces. The console is used to manage doctor and doctor consultations. GUI is used to view doctor lists and allow patients to book a consultation and view booked consultations.",
@@ -135,14 +142,7 @@ function Projects() {
       skills: ["MERN Stack", "Tailwind CSS", "Version Control", "Git"],
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/Enhanced-virtual-fitting-room",
-    },
-    {
-      "title": "Real-Time Event Ticketing System",
-      "associated": "Independent Project",
-      "description": "Developed a Real-Time Event Ticketing System with advanced producer-consumer implementation. This project focused on mastering object-oriented programming, multi-threading, and synchronization. It incorporated a dynamic ticketing environment to simulate concurrent ticket releases and purchases, showcasing expertise in system design and high-performance applications.",
-      "skills": ["React", "Angular", "Spring Boot", "Object-Oriented Programming (OOP)", "WebSocket", "Multi-threading", "Producer-Consumer Pattern"],
-      "githubLink": "https://github.com/Sajeevan-Sivapalan/Real-Time-Ticketing-System"
-    },    
+    },   
     {
       title: "University Timetable Management System",
       associated: "Associated with SLIIT",
