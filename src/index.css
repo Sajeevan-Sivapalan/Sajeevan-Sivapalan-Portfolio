@@ -5,5 +5,5 @@ body {
   font-family: "Poppins", sans-serif !important; /* Updated font to Poppins */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+  background-image: linear-gradient(to left, rgb(26, 26, 46), rgb(26, 26, 46)); /* Added clarity to RGB values */
 }

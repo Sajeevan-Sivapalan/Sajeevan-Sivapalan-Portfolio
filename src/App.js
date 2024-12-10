@@ -17,11 +17,21 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const [load, upadateLoad] = useState(true);
 
   useEffect(() => {
+    // Initialize AOS
+    AOS.init({
+      duration: 1200, // Animation duration
+      once: true, // Whether animation should happen only once
+      easing: "ease-in-out", // Default easing for animations
+    });
+
+    // Preloader timeout
     const timer = setTimeout(() => {
       upadateLoad(false);
     }, 1200);

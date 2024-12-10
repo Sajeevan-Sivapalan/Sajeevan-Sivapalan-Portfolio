@@ -47,6 +47,7 @@ function HoverCard({ tool }) {
       }}
       onMouseEnter={() => setHover(true)} // Set hover state to true
       onMouseLeave={() => setHover(false)} // Reset hover state
+      data-aos="zoom-in"
     >
       <div style={{ fontSize: "3rem", marginBottom: "10px" }}>{tool.icon}</div>
       <Card.Body>

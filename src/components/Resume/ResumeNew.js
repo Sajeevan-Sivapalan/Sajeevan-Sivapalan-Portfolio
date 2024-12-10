@@ -3,10 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import pdf from "../../Assets/Sajeevan_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
   const [boxWidth, setBoxWidth] = useState(800);
@@ -42,11 +40,11 @@ function ResumeNew() {
           left: "-150px",
           width: "300px",
           height: "300px",
-          background: "rgba(255, 255, 255, 0.1)",
           borderRadius: "50%",
           filter: "blur(80px)",
           zIndex: 0,
         }}
+        data-aos="fade-right"
       ></div>
       <div
         style={{
@@ -55,11 +53,11 @@ function ResumeNew() {
           right: "-200px",
           width: "400px",
           height: "400px",
-          background: "rgba(255, 255, 255, 0.1)",
           borderRadius: "50%",
           filter: "blur(120px)",
           zIndex: 0,
         }}
+        data-aos="fade-left"
       ></div>
 
       <Container>
@@ -68,10 +66,11 @@ function ResumeNew() {
           style={{
             fontSize: "2.5em",
             fontWeight: "bold",
+            marginTop: "65px",
             marginBottom: "20px",
             zIndex: 1,
             position: "relative",
-          }}
+          }} 
         >
           <strong className="purple">Resume</strong>
         </h1>
@@ -107,40 +106,13 @@ function ResumeNew() {
               }}
               onMouseOver={(e) => (e.target.style.backgroundColor = "#5a52e0")}
               onMouseOut={(e) => (e.target.style.backgroundColor = "#6c63ff")}
+              data-aos="zoom-in"
             >
               <AiOutlineDownload />
               Download CV
             </Button>
           </Col>
         </Row>
-        {/* <Row className="justify-content-center">
-          {/* PDF Viewer */}
-           {/*<Col
-            xs={12}
-            id="pdf-container"
-            style={{
-              border: "1px solid #b8b8d1",
-              borderRadius: "15px",
-              background: "#ffffff",
-              boxShadow: "0px 6px 20px rgba(0, 0, 0, 0.5)",
-              padding: "20px",
-              maxWidth: "800px", // Fixed maximum width
-              width: "90%", // Responsive width for smaller screens
-              zIndex: 1,
-              position: "relative",
-            }}
-          >
-            <Document file={pdf}>
-              <Page
-                pageNumber={1}
-                scale={boxWidth / 800} // Dynamically scale PDF based on box width
-                style={{
-                  margin: "0 auto",
-                }}
-              />
-            </Document>
-          </Col>
-        </Row> */}
       </Container>
     </div>
   );

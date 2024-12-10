@@ -70,6 +70,7 @@ function Experience() {
               key={index}
               className="d-flex align-items-stretch"
               style={{ marginBottom: "20px" }}
+              data-aos="fade-up"
             >
               <ExperienceCard
                 title={exp.title}

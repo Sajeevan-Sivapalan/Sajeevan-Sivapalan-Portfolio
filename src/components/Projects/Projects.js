@@ -137,6 +137,13 @@ function Projects() {
         "https://github.com/Sajeevan-Sivapalan/Enhanced-virtual-fitting-room",
     },
     {
+      "title": "Real-Time Event Ticketing System",
+      "associated": "Independent Project",
+      "description": "Developed a Real-Time Event Ticketing System with advanced producer-consumer implementation. This project focused on mastering object-oriented programming, multi-threading, and synchronization. It incorporated a dynamic ticketing environment to simulate concurrent ticket releases and purchases, showcasing expertise in system design and high-performance applications.",
+      "skills": ["React", "Angular", "Spring Boot", "Object-Oriented Programming (OOP)", "WebSocket", "Multi-threading", "Producer-Consumer Pattern"],
+      "githubLink": "https://github.com/Sajeevan-Sivapalan/Real-Time-Ticketing-System"
+    },    
+    {
       title: "University Timetable Management System",
       associated: "Associated with SLIIT",
       description:
@@ -220,6 +227,7 @@ function Projects() {
               md={4}
               className="d-flex"
               style={{ marginBottom: "20px" }}
+              data-aos="zoom-in"
             >
               <ProjectCard
                 title={project.title}

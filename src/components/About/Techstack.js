@@ -77,7 +77,7 @@ function Techstack() {
   return (
     <Row className="justify-content-center" style={{ padding: "30px 0" }}>
       {techStack.map((tech, index) => (
-        <Col key={index} xs={12} sm={6} md={4} lg={3} style={{ marginBottom: "20px" }}>
+        <Col key={index} xs={12} sm={6} md={4} lg={3} style={{ marginBottom: "20px" }} data-aos="zoom-in">
           <HoverCard tech={tech} />
         </Col>
       ))}

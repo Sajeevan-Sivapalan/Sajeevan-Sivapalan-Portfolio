@@ -16,14 +16,14 @@ function Education() {
       subtitle: "G.C.E A/L – Physical Science Stream",
       period: "2018 - 2020",
       location: "Mount-Lavinia",
-      description: "Specialized in Combined Mathematics, Physics, and ICT for A/Ls.",
+      description: "Specialized in Combined Mathematics, Physics, and Chemistry for A/Ls.",
     },
     {
       title: "S. THOMAS' COLLEGE",
       subtitle: "G.C.E O/L",
-      period: "2012 - 2020",
+      period: "2012 - 2017",
       location: "Mount-Lavinia",
-      description: "Achieved academic excellence with distinctions in core subjects.",
+      description: "",
     },
   ];
 
@@ -67,6 +67,7 @@ function Education() {
               key={index}
               className="d-flex align-items-stretch"
               style={{ marginBottom: "20px" }}
+              data-aos="fade-up"
             >
               <EducationCard
                 title={edu.title}
