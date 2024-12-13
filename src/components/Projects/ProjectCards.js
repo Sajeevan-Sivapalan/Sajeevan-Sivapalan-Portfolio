@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { BsGithub } from "react-icons/bs";
 
-function ProjectCards({ title, description, skills, githubLink }) {
+function ProjectCards({ title, description, skills, githubLink, image }) {
   const [hover, setHover] = useState(false);
 
   return (
@@ -15,17 +15,28 @@ function ProjectCards({ title, description, skills, githubLink }) {
         borderRadius: "15px",
         border: "none",
         boxShadow: hover
-          ? "0px 8px 30px rgba(0, 0, 0, 0.7)" // Elevated shadow on hover
-          : "0px 4px 20px rgba(0, 0, 0, 0.5)", // Normal shadow
-        height: "100%", // Ensures uniform card height
+          ? "0px 8px 30px rgba(0, 0, 0, 0.7)"
+          : "0px 4px 20px rgba(0, 0, 0, 0.5)",
+        height: "100%",
         display: "flex",
         flexDirection: "column",
-        transition: "transform 0.3s, box-shadow 0.3s", // Smooth transition effect
-        transform: hover ? "scale(1.05)" : "scale(1)", // Scale effect on hover
+        transition: "transform 0.3s, box-shadow 0.3s",
+        transform: hover ? "scale(1.05)" : "scale(1)",
       }}
-      onMouseEnter={() => setHover(true)} // Set hover state to true
-      onMouseLeave={() => setHover(false)} // Reset hover state
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
     >
+      <Card.Img
+        variant="top"
+        src={image}
+        alt={`${title} thumbnail`}
+        style={{
+          borderTopLeftRadius: "15px",
+          borderTopRightRadius: "15px",
+          maxHeight: "150px",
+          objectFit: "cover",
+        }}
+      />
       <Card.Body
         style={{
           display: "flex",
@@ -48,7 +59,7 @@ function ProjectCards({ title, description, skills, githubLink }) {
             textAlign: "justify",
             fontSize: "0.9rem",
             color: "#b8b8d1",
-            flexGrow: 1, // Ensures text takes up space
+            flexGrow: 1,
             marginBottom: "15px",
           }}
         >
@@ -72,7 +83,7 @@ function ProjectCards({ title, description, skills, githubLink }) {
             borderColor: "#6495ED",
             fontSize: "0.9rem",
           }}
-          disabled={!githubLink} 
+          disabled={!githubLink}
         >
           <BsGithub /> &nbsp; GitHub
         </Button>

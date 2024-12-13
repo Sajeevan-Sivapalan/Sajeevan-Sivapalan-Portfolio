@@ -11,6 +11,7 @@ function Projects() {
       skills: ["Node.js", "MongoDB", "API Development"],
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/AGV-Management-and-Real-Time-Package-Tracking-System",
+      image: "https://cdn.prod.website-files.com/6504b546bf98b084e1574f7e/65710cb2efe9cca290aa36d8_page-hero_solutions_amr-agv-fleet-management%402x.jpg",
     },
     {
       title: "Auto Parts",
@@ -18,6 +19,7 @@ function Projects() {
         "AutoPart is a feature-rich Android application for an automobile parts e-commerce platform, developed using Android Studio. The app includes all essential e-commerce pages, such as product listings, detailed product views, and a shopping cart. It incorporates advanced filter and search functionalities, allowing users to quickly locate specific parts.",
       skills: ["Android Studio", "Java", "Front-End Development", "Front-End Design"],
       githubLink: "https://github.com/Sajeevan-Sivapalan/Auto-Parts",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7SriUAthwCOIeJz24TlTz-NXBI6bz-mtIcw&s",
     },
     {
       title: "Build Zone - Web and Mobile Applications for the Construction Industry",
@@ -26,6 +28,7 @@ function Projects() {
         "This project features a web application and a mobile application, both powered by a unified backend. This app enables users in the procurement industry to manage their purchase orders.",
       skills: ["MERN Stack", "Flutter", "Tailwind CSS", "Version Control", "Git"],
       githubLink: "https://github.com/Sajeevan-Sivapalan/Build-Zone",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjP47_S3JKehtbDD9I7Kqc8nRKyFwRSkYX2Q&s",
     },
     {
       title: "Educational Platform for Online Learning",
@@ -35,6 +38,7 @@ function Projects() {
       skills: ["MERN Stack", "Docker", "Microservices", "Tailwind CSS"],
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/Educational-Platform-for-Online-Learning",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmIF7SBsPeL3zG45kpz5yDE22YSHkyv-AEsA&s",
     },
     {
       title: "Exam-Result-Management-System",
@@ -43,6 +47,7 @@ function Projects() {
       skills: ["Web Development"],
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/Exam-Result-Management-System",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLLdlMrkUST5DGA46KXrBLP-q6oFVQLbDa-g&s",
     },
     {
       title: "Exception Logger Library",
@@ -51,6 +56,7 @@ function Projects() {
       skills: ["Spring Boot", "Error Analysis"],
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/Exception-Logger-Library",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5KOJXPZfryrfSdIkzjEXs_A1J2ScNGQLptA&s",
     },
     {
       title: "Farm Connect - Mobile Application for Farmers and Customers",
@@ -59,6 +65,7 @@ function Projects() {
         "A mobile application that connects farmers and customers directly. The vision for this app was to create a more transparent platform with fair prices for farmers and fresh, high-quality products for customers, while reducing middlemen commissions.",
       skills: ["Flutter", "Node.js", "MongoDB", "Git", "Version Control"],
       githubLink: "https://github.com/Sajeevan-Sivapalan/Farm-Connect",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLUa-ZRKO7w4xwD70vbLeBa3S0s39vnhpJWg&s",
     },
     {
       title: "Human-Resource-Management-System",
@@ -68,7 +75,16 @@ function Projects() {
       skills: ["Web Development", "MERN Stack", "Version Control", "Git"],
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/Human-Resource-Management-System",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCYouyDvDa8_YPLb9QXzPp8Q6M4baweElrw&s",
     },
+    {
+      title: "Integrated Superbowl and Cruise System Management",
+      associated: "Independent Project",
+      description: "This project integrates two systems into a Java-based console application. The NFL Superbowl Information System provides data on Superbowls (1967–2024), allowing users to view results, detailed year info, and search by team or state. The Cruise Ship Administration System manages cruise operations, including ships, cabins, passengers, and excursions, enabling dynamic bookings and real-time updates. It showcases Java's ability to handle complex data and deliver interactive solutions.",
+      skills: ["Java"],
+      githubLink: "https://github.com/Sajeevan-Sivapalan/Integrated-Superbowl-and-Cruise-System-Management",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5PeSZ4hXF729cbX55r1BmiNt8xgTrxU3Rfw&s",
+    }, 
     {
       title: "Inventory-Management-System",
       description:
@@ -76,6 +92,7 @@ function Projects() {
       skills: ["Web Development", "HTML5", "CSS", "JavaScript", "PHP", "MySQL"],
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/Inventory-Management-System",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZWrKlHXJ8sK0B-0ZWVoPdr3aoRwz--Pzig&s",
     },
     {
       title: "LuxuryX Vulnerability Fixed Repository",
@@ -85,6 +102,7 @@ function Projects() {
       skills: ["XSS", "MERN Stack", "CORS", "NoSQL", "Security"],
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/LuxuryX-Vulnerability-Fixed-Repository",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5i4v_H1Gajo5yd5JDEj71dfKkxdBAIHkEIg&s",
     },
     {
       title: "Mongo Backup Service Library",
@@ -93,6 +111,7 @@ function Projects() {
       skills: ["Spring Boot", "MongoDB"],
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/Mongo-Backup-Service-Library",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJnpRF09PKwOH2GVd4T826EXoUr_4tyyzWDQ&s",
     },
     {
       title: "Online-Examination-Management-System",
@@ -102,6 +121,7 @@ function Projects() {
       skills: ["Java", "Web Development", "MySQL"],
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/Online-Examination-Management-System",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtU51vr1rKQW3eAXzbv0O7Ozw8PxIBzFdnPg&s",
     },
     {
       title: "Personal Portfolio Website",
@@ -109,6 +129,7 @@ function Projects() {
         "Developed a responsive portfolio website using React, showcasing modern design principles and optimized for seamless user experience across devices.",
       skills: ["React.js", "Front-End Development", "Front-End Design"],
       githubLink: "https://github.com/Sajeevan-Sivapalan/Sajeevan-Sivapalan-Portfolio",
+      image: "https://cdn.prod.website-files.com/6504b546bf98b084e1574f7e/65710cb2efe9cca290aa36d8_page-hero_solutions_amr-agv-fleet-management%402x.jpg",
     },
     {
       title: "React Frontend Application Using NASA APIs",
@@ -118,13 +139,15 @@ function Projects() {
       skills: ["React.js", "Git", "Version Control", "Software Development"],
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/React-Frontend-Application-Using-NASA-APIs",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV_hZTBrdRrk1dsu5m_yZGZWXJn295-pW64Q&s",
     },
     {
       title: "Real-Time Event Ticketing System",
       associated: "Independent Project",
       description: "Developed a Real-Time Event Ticketing System with advanced producer-consumer implementation. This project focused on mastering object-oriented programming, multi-threading, and synchronization. It incorporated a dynamic ticketing environment to simulate concurrent ticket releases and purchases, showcasing expertise in system design and high-performance applications.",
       skills: ["React", "Angular", "Spring Boot", "Object-Oriented Programming (OOP)", "WebSocket", "Multi-threading", "Producer-Consumer Pattern"],
-      githubLink: "https://github.com/Sajeevan-Sivapalan/Real-Time-Ticketing-System"
+      githubLink: "https://github.com/Sajeevan-Sivapalan/Real-Time-Ticketing-System",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSIZ1r6QAtNHc2JnkCkyRhnZqBZ_XhEaNFAQ&s",
     }, 
     {
       title: "Skin-Consultation-Center",
@@ -133,6 +156,7 @@ function Projects() {
       skills: ["Java", "Software Development"],
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/Skin-Consultation-Center",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYcmZEg7B6MVeIMMF83FziuSLxUiBkPviUwA&s",
     },
     {
       title: "Solar Flare - Web Application for an Optical Store",
@@ -142,6 +166,7 @@ function Projects() {
       skills: ["MERN Stack", "Tailwind CSS", "Version Control", "Git"],
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/Enhanced-virtual-fitting-room",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5i4v_H1Gajo5yd5JDEj71dfKkxdBAIHkEIg&s",
     },   
     {
       title: "University Timetable Management System",
@@ -159,6 +184,7 @@ function Projects() {
       ],
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/University-Timetable-Management-System",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm4PXC7UkZd-uww3nmEKNxvFcpRc7xPZE90w&s",
     },
     {
       title: "Wallet-App",
@@ -167,6 +193,7 @@ function Projects() {
         "Financial planning app for the Mobile Application Development module project. Developed in Android Studio using Kotlin, and Firebase as the database.",
       skills: ["Software Development", "Android Studio", "Version Control", "Git", "Kotlin"],
       githubLink: "https://github.com/Sajeevan-Sivapalan/Wallet-App",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqQQZOqJ7ajy7EboP-h_RsqHxfQ5_kJ5INyw&s",
     },
     {
       title: "iCorner-ECommerce-Suite",
@@ -185,6 +212,7 @@ function Projects() {
         "Front-End Development",
       ],
       githubLink: "https://github.com/Sajeevan-Sivapalan/iCorner-ECommerce-Suite",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5i4v_H1Gajo5yd5JDEj71dfKkxdBAIHkEIg&s",
     },
   ];
   
@@ -220,12 +248,12 @@ function Projects() {
         >
           Here are a few projects I've worked on recently.
         </p>
-        <Row className="d-flex align-items-stretch">
+        <Row className="justify-content-center d-flex align-items-stretch">
           {projects.map((project, index) => (
             <Col
               key={index}
               md={4}
-              className="d-flex"
+              className="d-flex justify-content-center"
               style={{ marginBottom: "20px" }}
               data-aos="zoom-in"
             >
@@ -234,6 +262,7 @@ function Projects() {
                 description={project.description}
                 skills={project.skills}
                 githubLink={project.githubLink}
+                image={project.image}
               />
             </Col>
           ))}
