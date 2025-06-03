@@ -31,6 +31,26 @@ function Projects() {
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjP47_S3JKehtbDD9I7Kqc8nRKyFwRSkYX2Q&s",
     },
     {
+    "title": "BioMentor - Personalized E-Learning Platform",
+    "description": "AI-based learning tool for A/L Biology using LLAMA 3, SciBERT, and Hugging Face to generate and evaluate essay answers.",
+    "skills": [
+      "Python", "FastAPI", "React.js", "MongoDB", "Hugging Face",
+      "LLM", "FAISS", "Natural Language Processing", "AI/ML", "Prompt Engineering"
+    ],
+    "githubLink": "https://github.com/Sajeevan-Sivapalan/BioMentor-Personalized-E-Learning-Platform",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjP47_S3JKehtbDD9I7Kqc8nRKyFwRSkYX2Q&s"
+  },
+  {
+    "title": "CTSE Chatbot – LLM-Powered Lecture Assistant",
+    "description": "Built a RAG-based chatbot with Gemini Flash and Mistral-7B using FAISS-based semantic search and fallback prompts.",
+    "skills": [
+      "Python", "LLM", "RAG", "FAISS", "Gemini", "Mistral-7B",
+      "Prompt Engineering", "Jupyter", "Semantic Search"
+    ],
+    "githubLink": "",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjP47_S3JKehtbDD9I7Kqc8nRKyFwRSkYX2Q&s"
+  },
+    {
       title: "Educational Platform for Online Learning",
       associated: "Associated with SLIIT",
       description:
