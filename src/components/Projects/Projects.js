@@ -31,25 +31,25 @@ function Projects() {
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjP47_S3JKehtbDD9I7Kqc8nRKyFwRSkYX2Q&s",
     },
     {
-    "title": "BioMentor - Personalized E-Learning Platform",
-    "description": "AI-based learning tool for A/L Biology using LLAMA 3, SciBERT, and Hugging Face to generate and evaluate essay answers.",
-    "skills": [
-      "Python", "FastAPI", "React.js", "MongoDB", "Hugging Face",
-      "LLM", "FAISS", "Natural Language Processing", "AI/ML", "Prompt Engineering"
-    ],
-    "githubLink": "https://github.com/Sajeevan-Sivapalan/BioMentor-Personalized-E-Learning-Platform",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjP47_S3JKehtbDD9I7Kqc8nRKyFwRSkYX2Q&s"
-  },
-  {
-    "title": "CTSE Chatbot – LLM-Powered Lecture Assistant",
-    "description": "Built a RAG-based chatbot with Gemini Flash and Mistral-7B using FAISS-based semantic search and fallback prompts.",
-    "skills": [
-      "Python", "LLM", "RAG", "FAISS", "Gemini", "Mistral-7B",
-      "Prompt Engineering", "Jupyter", "Semantic Search"
-    ],
-    "githubLink": "",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjP47_S3JKehtbDD9I7Kqc8nRKyFwRSkYX2Q&s"
-  },
+      title: "BioMentor - Personalized E-Learning Platform",
+      description: "AI-based learning tool for A/L Biology using LLAMA 3, SciBERT, and Hugging Face to generate and evaluate essay answers.",
+      skills: [
+        "Python", "FastAPI", "React.js", "MongoDB", "Hugging Face",
+        "LLM", "FAISS", "Natural Language Processing", "AI/ML", "Prompt Engineering"
+      ],
+      githubLink: "https://github.com/Sajeevan-Sivapalan/BioMentor-Personalized-E-Learning-Platform",
+      image: "https://www.google.com/imgres?q=bio%20related%20images&imgurl=https%3A%2F%2Fbiologylearner.com%2Fwp-content%2Fuploads%2F2024%2F01%2FCover.jpg&imgrefurl=https%3A%2F%2Fbiologylearner.com%2F&docid=fV1o7WkswFG9zM&tbnid=D2AZuUSo0HuDCM&vet=12ahUKEwjH1_OOtNSNAxXXyDgGHQoQL4EQM3oECH8QAA..i&w=1200&h=600&hcb=2&ved=2ahUKEwjH1_OOtNSNAxXXyDgGHQoQL4EQM3oECH8QAA"
+    },
+    {
+      title: "CTSE Chatbot – LLM-Powered Lecture Assistant",
+      description: "Built a RAG-based chatbot with Gemini Flash and Mistral-7B using FAISS-based semantic search and fallback prompts.",
+      skills: [
+        "Python", "LLM", "RAG", "FAISS", "Gemini", "Mistral-7B",
+        "Prompt Engineering", "Jupyter", "Semantic Search"
+      ],
+      githubLink: "",
+      image: "https://www.google.com/imgres?q=chatbot&imgurl=https%3A%2F%2Fwp.sfdcdigital.com%2Fen-us%2Fwp-content%2Fuploads%2Fsites%2F4%2F2024%2F08%2FAICopilotVsChatbot_02.webp%3Fw%3D1024&imgrefurl=https%3A%2F%2Fwww.salesforce.com%2Fagentforce%2Fai-agent-vs-chatbot%2F&docid=Ph3oVCKTU4imUM&tbnid=y-M38yuFdmCg9M&vet=12ahUKEwiwi46rtNSNAxVGyjgGHeNiGjsQM3oECGYQAA..i&w=1024&h=575&hcb=2&ved=2ahUKEwiwi46rtNSNAxVGyjgGHeNiGjsQM3oECGYQAA"
+    },
     {
       title: "Educational Platform for Online Learning",
       associated: "Associated with SLIIT",
@@ -104,7 +104,7 @@ function Projects() {
       skills: ["Java"],
       githubLink: "https://github.com/Sajeevan-Sivapalan/Integrated-Superbowl-and-Cruise-System-Management",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5PeSZ4hXF729cbX55r1BmiNt8xgTrxU3Rfw&s",
-    }, 
+    },
     {
       title: "Inventory-Management-System",
       description:
@@ -132,6 +132,15 @@ function Projects() {
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/Mongo-Backup-Service-Library",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJnpRF09PKwOH2GVd4T826EXoUr_4tyyzWDQ&s",
+    },
+    {
+      title: "NatureAR Scene – Marker-Based WebAR Experience",
+      associated: "Associated with SenzMate IoT Intelligence",
+      description:
+        "Developed an interactive WebAR experience using A-Frame and AR.js. Rendered nature-themed 3D scenes triggered by printed markers with custom animations, GLTF models, and positional audio for immersive engagement.",
+      skills: ["A-Frame", "AR.js", "GLTF", "HTML5", "JavaScript", "WebAR", "3D Visualization"],
+      githubLink: "https://github.com/Sajeevan-Sivapalan/ar-nature-explorer",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/AR_marker_02.svg/1200px-AR_marker_02.svg.png"
     },
     {
       title: "Online-Examination-Management-System",
@@ -168,7 +177,7 @@ function Projects() {
       skills: ["React", "Angular", "Spring Boot", "Object-Oriented Programming (OOP)", "WebSocket", "Multi-threading", "Producer-Consumer Pattern"],
       githubLink: "https://github.com/Sajeevan-Sivapalan/Real-Time-Ticketing-System",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSIZ1r6QAtNHc2JnkCkyRhnZqBZ_XhEaNFAQ&s",
-    }, 
+    },
     {
       title: "Skin-Consultation-Center",
       description:
@@ -187,7 +196,7 @@ function Projects() {
       githubLink:
         "https://github.com/Sajeevan-Sivapalan/Enhanced-virtual-fitting-room",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5i4v_H1Gajo5yd5JDEj71dfKkxdBAIHkEIg&s",
-    },   
+    },
     {
       title: "University Timetable Management System",
       associated: "Associated with SLIIT",
@@ -235,8 +244,8 @@ function Projects() {
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5i4v_H1Gajo5yd5JDEj71dfKkxdBAIHkEIg&s",
     },
   ];
-  
-  
+
+
   return (
     <Container
       fluid
